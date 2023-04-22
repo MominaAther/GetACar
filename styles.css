@@ -1,0 +1,168 @@
+body {
+  color: #444444;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+em {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Background Video */
+#video-background {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+#video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#video-background nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#video-background nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#video-background nav ul li {
+  margin-right: 20px;
+}
+
+#video-background nav ul li:last-child {
+  margin-right: 0;
+}
+
+#video-background nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#video-background h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* About Us */
+#AboutUs {
+  padding: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 120px;
+  background-color: #8A9A5B;
+  color: #fff;
+  text-align: center;
+}
+
+.aboutus {
+  height: 700px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reviews */
+#Reviews {
+  text-align: center;
+  background-color: #44573D;
+  color: #fff;
+}
+
+.reviews {
+  height: 700px;
+}
+
+.carousel-item {
+  padding: 15% 20%;
+  font-size: 40px;
+}
+
+/* Services */
+#Services {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  position: relative;
+  background-color: #3C4A37;
+  text-align: center;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  height: 50px;
+  background-color: #3C4A37;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.ft-para {
+  font-size: 1.5rem;
+}
